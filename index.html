@@ -17,6 +17,7 @@
     }
     .buttons-container {
       background-color:black;
+      display: flex;
     }
     .button {
       color: white;
@@ -25,6 +26,9 @@
       font-size: x-large;
       text-align: center;
       cursor: pointer;
+    }
+    .empty-box {
+      flex-grow: 1;
     }
   </style>
 </head>
@@ -43,6 +47,10 @@
       </button>
       <button class="js-mute-button button" hidden>
         <i class="fa fa-volume-up fa-2" aria-hidden="true"></i>
+      </button>
+      <div class="empty-box"> </div>
+      <button class="js-fullscreen-button button">
+        <i class="fa fa-expand" aria-hidden="true"></i>
       </button>
     </div>
   </div>
