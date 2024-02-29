@@ -2,6 +2,7 @@
 
 ## Минималистичный видеоплеер.
 Пример работы можно посмотреть [здесь](https://anneg8.github.io/video_player2/).
+![Example](https://github.com/AnneG8/video_player2/blob/master/example.png)
 
 ### Как установить
 
